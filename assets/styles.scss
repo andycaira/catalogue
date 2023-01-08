@@ -10,8 +10,8 @@ $logo: url("{{ '/assets/logo.png' | absolute_url }}");
 
 /* text */
 
-$body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$body-font:       'Ubuntu', 'sans-serif';
+$heading-font:    'Ubuntu', 'sans-serif';
 
 
 /* Image Size */
@@ -21,11 +21,13 @@ $thumbnail-width: 140px;
 
 /* colors */
 
-$text-color:      #100c01;
+$text-color:      #666560;
 $bg-color:        #ffffff;
 $neutral:         #eae7de;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
+$accent-light:    #666560;
+$accent-dark:     #3d3c39;
+$griff-pink:      #f5cbec;
+$griff-green:     #22e09c;
 
 /* viewport sizes */
 
@@ -47,5 +49,5 @@ $footer-height:   250px;
 font & asset import
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&font-display=auto');
 @import 'wax';
